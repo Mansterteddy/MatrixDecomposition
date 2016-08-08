@@ -1,0 +1,6 @@
+{
+  "name": "Project-Matrix-Decomposition-Solver",
+  "tagline": "Solver",
+  "body": "This project includes some materials and codes about linear algebra and its application, I provide some implementations of matrix decomposition, including LU, QR, Householder, Givens decomposition.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
