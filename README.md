@@ -1,2 +1,2 @@
 # MatrixDecomposition
-This is a python solver applied to solve matrix decomposition problem, including QR, Householder, Givens.
+This is a solver applied to solve linear algebra problem, including QR, Householder, Givens Decomposition, PCA and so on.
