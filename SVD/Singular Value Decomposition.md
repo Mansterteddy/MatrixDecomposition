@@ -24,11 +24,11 @@ $$
 
 接下来，我们举例一个SVD的具体应用，有请神奇女侠—盖尔加朵：
 
-  ![gray](C:\Users\manster\Documents\GitHub\Project-Linear-Algebra-Solver\gray.jpg)
+  
 
-我们知道，灰度图片可以被表示成矩阵的样子，我们将矩阵进行奇异值分解
+ ![gray](gray.jpg)
 
-$A=U\Sigma V^T$，进一步：
+我们知道，灰度图片可以被表示成矩阵的样子，我们将矩阵进行奇异值分解$A=U\Sigma V^T$，进一步：
 $$
 A=\sigma_1u_1v_1^T+\sigma_2u_2v_2^T+...+\sigma_ru_rv_r^T
 $$
