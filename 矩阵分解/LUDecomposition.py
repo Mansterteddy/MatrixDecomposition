@@ -20,22 +20,23 @@ def load_data():
             #B=scipy.array(B)
     return B
 
-#def Scipy_LU(A):
-#  A=scipy.array(A)
-#  P,L,U=scipy.linalg.lu(A)
+'''
+def Scipy_LU(A):
+  A=scipy.array(A)
+  P,L,U=scipy.linalg.lu(A)
 
-#  print "A:"
-#  pprint.pprint(A)
+  print "A:"
+  pprint.pprint(A)
 
-#  print "P:"
-#  pprint.pprint(P)
+  print "P:"
+  pprint.pprint(P)
 
-#  print "L:"
-#  pprint.pprint(L)
+  print "L:"
+  pprint.pprint(L)
 
-#  print "U:"
-#  pprint.pprint(U)
-
+  print "U:"
+  pprint.pprint(U)
+'''
 
 def multiply_matrix(M,N):
     """Multiply square matrices of same dimension M and N"""
@@ -118,12 +119,12 @@ def Print_Matrix(A,flag):
     print "U:"
     pprint.pprint(U)
 
-
-A=load_data()
-if A==0:
-    print "Wrong Matrix!"
-#Scipy_LU(A)
-else:
-    A,flag=LU_Decomposition(A)
-    Print_Matrix(A,flag)
+if __name__ == "__main__":
+    A=load_data()
+    if A==0:
+        print "Wrong Matrix!"
+    #Scipy_LU(A)
+    else:
+        A,flag=LU_Decomposition(A)
+        Print_Matrix(A,flag)
 
